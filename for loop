@@ -1,0 +1,17 @@
+import java.lang.*;
+import java.util.*;
+
+public class Main{
+     public static void main(String[]args){
+         Scanner sc = new Scanner(System.in);
+         int N = sc.nextInt();
+          int a= N%10;
+          int b=0;
+             for(int j=N;j>0;j/=10){ 
+                  b=j%10;}
+   
+         System.out.print(b+" ");
+         System.out.print(a);
+     }   
+    
+}
